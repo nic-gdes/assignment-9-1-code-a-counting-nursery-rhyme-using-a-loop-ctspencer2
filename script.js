@@ -14,16 +14,14 @@ function fatSausage() {
       var count = 10;
 
       while (count > 0) {
-         console.log (count + " " + word + " sizzlin' in a pan!");
-         console.log ("one went pop, one went bam,");
+         document.write (count + " " + word + " sizzlin' in a pan!<br>");
+         document.write ("one went pop, one went bam,<br>");
          count = count - 2;
 
       if (count <= 0) {
-         console.log ("No more " + word + " in the pan.");
+         document.write ("No more " + word + " in the pan.<br>");
       } 
    }
 }
 
-for (var i = 0; i < 5; i++) {
-   fatSausage();
-}
+fatSausage();
